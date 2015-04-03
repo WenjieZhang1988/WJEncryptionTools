@@ -14,6 +14,7 @@
 		1808522A1ACF02AB0059B7EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180852291ACF02AB0059B7EA /* Images.xcassets */; };
 		1808522D1ACF02AB0059B7EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1808522B1ACF02AB0059B7EA /* LaunchScreen.xib */; };
 		180852391ACF02AB0059B7EA /* WJEncryptionToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180852381ACF02AB0059B7EA /* WJEncryptionToolsTests.m */; };
+		180852441ACF02CE0059B7EA /* WJEncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 180852431ACF02CE0059B7EA /* WJEncryptionTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		180852321ACF02AB0059B7EA /* WJEncryptionToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJEncryptionToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180852371ACF02AB0059B7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180852381ACF02AB0059B7EA /* WJEncryptionToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJEncryptionToolsTests.m; sourceTree = "<group>"; };
+		180852421ACF02CE0059B7EA /* WJEncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJEncryptionTools.h; sourceTree = "<group>"; };
+		180852431ACF02CE0059B7EA /* WJEncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJEncryptionTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				180852211ACF02AB0059B7EA /* AppDelegate.m */,
 				180852231ACF02AB0059B7EA /* ViewController.h */,
 				180852241ACF02AB0059B7EA /* ViewController.m */,
+				180852421ACF02CE0059B7EA /* WJEncryptionTools.h */,
+				180852431ACF02CE0059B7EA /* WJEncryptionTools.m */,
 				1808521C1ACF02AB0059B7EA /* Supporting Files */,
 			);
 			path = WJEncryptionTools;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180852441ACF02CE0059B7EA /* WJEncryptionTools.m in Sources */,
 				180852251ACF02AB0059B7EA /* ViewController.m in Sources */,
 				180852221ACF02AB0059B7EA /* AppDelegate.m in Sources */,
 				1808521F1ACF02AB0059B7EA /* main.m in Sources */,
